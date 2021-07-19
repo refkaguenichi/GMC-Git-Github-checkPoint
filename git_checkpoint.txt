@@ -1,0 +1,27 @@
+1. Create new folder with: mkdir learn_git_again
+2. Change directory to the folder with: cd learn_git_again
+3. Create new file in the current folder with: touch third.txt
+4. Initialize an empty git repository with:git init
+5.Add third.txt to the staging area using: git add third.txt
+6. Commit with the message "adding third.txt" using:git commit -m "adding third.txt"
+7. Check out your commit with git log
+8. Create another file called fourth.txt using: touch fourth.txt
+9. Add fourth.txt to the staging area using: git add fourth.txt
+10.Commit with the message "adding fourth.txt" using: git commit -m "adding fourth.txt"
+11. Remove the third.txt file with: git rm third.txt
+12. Add this change to the staging area using: git add third.txt
+Commit with the message "removing third.txt" with: git commit -m "removing third.txt"
+13.Check out your commits using git log
+14.Change your global settings to core.pager=cat with 
+15. Create new repositroy on Github platform after that we type the command: git remote add origin https://github.com/refkaguenichi/GMC-Git-Github-checkPoint.git
+to relate the local folder to Github
+16. With the command:  git push -u origin master we uppload the files in Github
+
+
+-----------------------
+To add this file and uppload it on Github I use:
+1. touch git_checkpoint
+2. git add git_checkpoint
+3.  git commit -m "adding checkpoint file which contains the list of commands"
+
+
