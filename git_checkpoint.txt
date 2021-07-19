@@ -15,13 +15,18 @@ Commit with the message "removing third.txt" with: git commit -m "removing third
 14.Change your global settings to core.pager=cat with 
 15. Create new repositroy on Github platform after that we type the command: git remote add origin https://github.com/refkaguenichi/GMC-Git-Github-checkPoint.git
 to relate the local folder to Github
-16. With the command:  git push -u origin master we uppload the files in Github
+16. With the command:  git push origin master we uppload the files in Github
 
 
 -----------------------
 To add this file and uppload it on Github I use:
 1. touch git_checkpoint
 2. git add git_checkpoint
-3.  git commit -m "adding checkpoint file which contains the list of commands"
+3. git commit -m "adding checkpoint file which contains the list of commands"
+------After changing the document-----
+4. git add git_checkpoint
+5. git commit -m "adding changes to git-checkpoint"
+6. git remote
+7. git push origin master
 
 
